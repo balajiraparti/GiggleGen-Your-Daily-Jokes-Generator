@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +45,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+=======
+# GiggleGen-Your-Daily-Jokes-Generator
+A lightweight, fun project that delivers a fresh dose of jokes at each click! This bot serves up puns, dad jokes, programming and Thala for reason and dank humor to keep you laughing. 
+>>>>>>> 52fdf8c2bbdba71ab3ca322dc633188a310939cc
