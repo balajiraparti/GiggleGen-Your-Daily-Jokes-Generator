@@ -526,7 +526,31 @@ const JOKES = {
     "My crush's birthday: 7th July. Manifesting Dhoni-level luck. Thala for a reason.",
     "7 emojis in my status, all lions. CSK fever. Thala for a reason.",
     "Even my calculator shows 7 when I type \"THALA.\" Illuminati confirmed. Thala for a reason."
+  ],
+  dark:[
+    "Religion is like penis! its fine to have one,its fine not to have one.the problem starts when showing it down children's throats",
+    "killing black people is a lot like saying the N-word.They do it all the time,but get REAL mad when  a white person does it",
+    "i like my COVID like my women,19 and easily spread",
+    "what's difference between a black man and a black hole? the black hole is a lot more dense",
+    "what's the difference between Taliban fighter and an Iraq child? How the fuck should i know? I'm a drone pilot",
+    "What happend to my virginity when my uncle walked in the room? [removed]", 
+    "You could really tell the US government was tired of No Shave November.As soon as December 1st hits,Bush was gone.",
+    "I onced had sex with a girl who has a stutter.Thank God i was able to finish before she was able to say \"No\" ",
+    "What's the best thing about killing a hooker? Not only you get your money back ,but the second hour is free",
+    "I asked my friend i she wants to play a rape game.She: \"No\" Me: \"Thats the spirit\"",
+    "If i had a dollar for evry racist thing i've ever said.... Some black motherfucker would probably rob me.",
+    "I already failed No Nut November.  It was lot more easier two years ago when i didn't have sister",
+   "I asked my girlfriend if we could try out a rape fantasy.She said no.It was best night of my life.",
+   "Sex is like broccoli.If you were forced to have it as a kid then you probably won't like it as an adult.",
+   "Q:What does not belong? Eggs,wife or blowjob. A:Blowjob. you can beat your eggs and you can beat your wife,but you can't beat blowjob.",
+   "I donated some money to an LGBT charity the other day.  I really hope they can raise enough money to find cure.",
+   "getting a handjob is just like watching paralympics. You appreciate the effort but you know you could do better.",
+   "What pikachu and 6 million jews have in common? They're both ashes.",
+   "I hate it when guys say their girlfriends are their \"Partners in crime \" Like we got it bro she's underage",
+   "Why do chinese people like playing Among Us. its only place they can vote.",
+   "What's difference between a cop and a bullet. When a bullet kills somebody you know its been fired."
   ]
+
 };
 
 function App() {
@@ -539,7 +563,7 @@ function App() {
   const [backgroundEmojis, setBackgroundEmojis] = useState<Array<{ id: number; emoji: string; x: number; y: number; path: { x: number; y: number }[] }>>([]);
   const [rating, setRating] = useState<number | null>(null);
 
-  useEffect(() => {
+  useEffect(() => { 
     // Create initial background emojis with random paths
     const initialEmojis = Array.from({ length: 15 }, (_, i) => ({
       id: i,
